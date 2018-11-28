@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins'
 }
 
-h2, p, .readme-wrapper {
+h2, p, .readme-wrapper, .colors {
    text-align: center;
 }
 
@@ -45,4 +45,24 @@ span {
 }
 #box4 {
     background: rgba(128, 0, 128, 0.651);
+}
+
+.image {
+    width: 25px;
+    height: 25px;
+    background: black;
+    position: relative;
+    float: right;
+}
+.color1 {
+    color: rgb(117, 8, 26);
+    font-weight: bold;
+}
+.color2 {
+    color: rgb(11, 5, 92);
+    font-weight: bold;;
+}
+.color3 {
+    color: rgb(172, 98, 7);
+    font-weight: bold;
 }
