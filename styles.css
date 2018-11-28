@@ -1,0 +1,48 @@
+body {
+    background: lightgray;
+    font-family: 'Poppins'
+}
+
+h2, p, .readme-wrapper {
+   text-align: center;
+}
+
+a {
+    display: block;
+    border: white;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(189, 16, 16);
+}
+
+.boxes {
+    display: block;
+    margin: 9px 3em 1em 7em;
+    padding: 4px 55px;
+    border: 5px solid black;
+    border-radius: 20em;
+    width:30%;
+}
+
+span { 
+    font-weight: bold;
+    color: #5a00ff;
+}
+
+#box1 {
+    background: rgba(0, 0, 255, 0.479);
+}
+#box2 {
+    background: rgba(255, 0, 0, 0.534);
+}
+#box3 {
+    background: rgba(172, 255, 47, 0.678);
+}
+#box4 {
+    background: rgba(128, 0, 128, 0.651);
+}
